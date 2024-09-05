@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.descriptions{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.btn-1{
+    background-color: #fff;
+    color:#18181B;
+    width: 79px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.btn-2{
+    background-color: #4CFDC7;
+    color:#18181B;
+    width: 79px;
+    height: 32px;
+    border-radius: 5px;
+    border: #4CFDC7;
+}
+.navbar .logo{
+    display: flex;
+}
+.navbar .logo img{
+    width: 20px;
+    height: 15px;
+}
+.navbar .logo .btc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar .navs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 200px;
+}
+
+.navbar .navs h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar .navs .icon{
+    display: flex;
+    gap: 5px;
+}
+
+.page-1{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+.page-1 .left{
+    flex: 2;
+    padding-top: 50px;
+}
+
+.page-1 .right{
+    flex: 1;
+    margin-left: 220px;
+}
+
+.page-1 .left .title{
+    
+    font-size: 71px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 1px;
+    text-align: left;
+
+}
+
+.page-1 .left .description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 32px;
+
+}
+
+.page-1 .left .btn{
+    margin-top: 20px;
+}
+.page-1 .left .btn-1{
+    width: 156px;
+    height: 38px;
+}
+
+.page-1 .left .btn-2{
+    width: 156px;
+    height: 38px;
+}
+
+.svg{
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.page-2{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.page-2 .first{
+    flex: 1;
+    align-items: center;
+    border-radius:5px;
+    border-style: solid;
+    border-color: #F4F4F5;
+    padding: auto;
+
+}
+
+.page-2 .first{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.first .first-1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+    
+}
+
+.first .first-2{
+    display: flex;
+    align-items: center;
+    gap: 260px;
+    padding-right: 0px;
+
+}
+
+.page-2 .first .xrp{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.page-2 .first .end{
+    display: flex;
+    margin: auto;
+    gap: 20px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.title-row{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    width: 88px;
+}
+
+.title-row-2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.description-row{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    color: #71717A;
+
+}
+
+.page-3{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.page-3 h1{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+.page-3 .descriptions{
+    width: 263px;
+    margin-top: 20px;
+}
+.page-3 .up{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.page-3 .low{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 170px;
+    gap: 120px;
+}
+
+.part-1{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.page-4{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 170px;
+    
+}
+
+.page-4 .left{
+    flex: 1;
+    flex-direction: column;
+}
+
+.part_1 h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.description-1{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.part_2{
+    display: flex;
+    gap: 30px;
+}
+
+.part_2_1{
+    margin-top: 50px
+}
+.part_2_1_2{
+    margin-top: 50px;
+}
+
+.part_2_2{
+    margin-top: 50px;
+    padding-left: 90px;
+}
+.part_2_2_2{
+    margin-top: 60px;
+}
+
+.page-4 .right{
+    flex: 1;
+    margin-top: 100px;
+
+}
+
+.page-4 .right img{
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.page-5{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    margin-top: 180px;
+}
+
+.page-5 .first{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.page-5 .first .title{
+    width: 550px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.page-5 .first .description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.page-5 .first .shermat{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 100px;
+}
+.page-5 .first .shermat .icons{
+    display: flex;
+    gap: 25px;
+}
+
+.page-5 .first .img{
+    width: 20px;
+    height: 20px;
+}
+
+.shermat h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+ .page-5 .first .btn-1{
+    width: 159px;
+    height: 38px;
+    top: 3842px;
+    left: 520px;
+    border-radius: 4px 0px 0px 0px;
+    margin-top: 80px;
+}
+
+.page-5 .second{
+    margin-top: 70px;
+}
+.page-5 .second img{
+    width: 1200px;
+}
+
+.page-6{
+    width: 80%;
+    height: 747px;;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.page-6 h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 395px;
+}
+
+.page-6 h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.page-6 h3{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    width: 257px;
+    margin-top: 30px;
+
+}
+
+.page-6 .trading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    gap: 180px;
+    
+}
+
+.page-6 .trading .trading-steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-6 .btn-2{
+    width: 156px;
+    height: 38px;
+    margin-top: 40px;
+}
+
+.page-6 button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+
+.page-7{
+    width: 80%;
+    height: 740px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.page-7 .left{
+    flex: 1;
+    padding-left: 100px;
+    
+}
+
+.page-7 .right{
+    flex: 1;
+}
+
+.page-7 h1{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.page-7 h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    width: 517px;
+    margin-top: 30px;
+}
+
+.page-7 .left .all-icons{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.page-8{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.page-8 .crypto-boxes{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 80px;
+}
+.page-8 .box{
+    width: 357px;
+    height: 344px;
+    top: 5998px;
+    left: 32px;
+    border-radius: 8px 0px 0px 0px;
+    box-shadow: 5px 5px #09181A0A;
+    text-align: left;
+    background-color:#FFFFFF;
+}
+
+.page-8 .box .crypto-news{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    position: relative;
+}
+
+.page-8 .box .crypto-news .news{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.page-8 h1{
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+
+.page-8 h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 30px;
+    
+}
+
+.page-8 h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.last{
+    position: absolute;
+    top: 140px;
+}
+
+.page-8 p{
+    margin-top: 100px;
+}
+
+.page-8 .social-medias{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.social-medias .media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-medias .media .img{
+    width: 19px;
+    height: 19px;
+}
+
+.page-9{
+    width: 80%;
+    height: 505px;
+    margin: auto;
+    align-items: center;
+}
+
+.page-9 .left{
+    flex: 1;
+    padding-left: 120px;
+}
+
+.page-9 .left h1{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 440px;
+    margin-top: 190px;
+
+}
+
+.page-9 .right{
+    flex: 1;
+    
+}
+
+.page-9 .btn-2{
+    width: 156px;
+    height: 38px;
+    margin-top: 30px;
+}
+
+.page-10{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-10 .btc{
+    display: flex;
+
+}
+
+.last-pages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.page-10 h1{
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.10000000149011612px;
+}
+
+.page-10 h2{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.page-10 h3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 30px;
+}
+
+.last-pages .social-medias .media{
+    margin-top: 30px;
+}
+
+.apps{
+    width: 72px;
+    height: 24px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ltd{
+    margin-top: 100px;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+.ahah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+
+.done{
+height: 1px;
+margin: auto;
+
+}
